@@ -225,65 +225,101 @@
         // YOUR QUIZ QUESTIONS - Edit this array with your questions!
         const quizQuestions = [
             {
-                question: "Which country has the most AI unicorns?",
-                options: ["United Kingdom", "China", "USA", "India"],
-                correct: 2,
-                explanation: "The USA leads in AI unicorns (startups valued over $1 billion) due to its strong venture capital ecosystem and tech hubs like Silicon Valley."
-            },
-            {
-                question: "What is the most popular framework that allows agents to use tools?",
-                options: ["TensorFlow", "Langchain", "PyTorch", "Hugging Face"],
-                correct: 1,
-                explanation: "Langchain is specifically designed to enable AI agents to interact with external tools and data sources, making it the go-to framework for building agent-based applications."
-            },
-            {
-                question: "What's the name of the test that determines if a machine can exhibit human-like intelligence?",
-                options: ["Turing Test", "Intelligence Quotient Test", "Cognitive Assessment Test", "Machine Learning Test"],
-                correct: 0,
-                explanation: "Proposed by Alan Turing in 1950, the Turing Test evaluates a machine's ability to exhibit intelligent behavior indistinguishable from a human."
-            },
-            {
-                question: "What's the term for when AI makes decisions we can't easily explain?",
-                options: ["Mystery Mode", "Black Box Problem", "Hidden Algorithm", "Secret Processing"],
-                correct: 1,
-                explanation: "The Black Box Problem refers to AI systems (especially deep neural networks) that make accurate predictions but whose internal decision-making process is opaque and difficult to interpret."
-            },
-            {
-                question: "What's the term for AI that can perform any intellectual task a human can do?",
-                options: ["Narrow AI", "Artificial General Intelligence (AGI)", "Super AI", "Machine Learning"],
-                correct: 1,
-                explanation: "AGI refers to hypothetical AI systems with human-level intelligence across all domains, unlike current 'narrow AI' which excels only at specific tasks."
-            },
-            {
-                question: "What revolutionary AI paper published in 2017 introduced the Transformer architecture?",
-                options: ["Deep Learning Revolution", "Attention is All You Need", "Neural Networks Unleashed", "The Future of AI"],
-                correct: 1,
-                explanation: "This groundbreaking paper by Google researchers introduced the Transformer architecture, which became the foundation for modern large language models like GPT and BERT."
-            },
-            {
-                question: "Which country has the most AI patents?",
-                options: ["USA", "Japan", "China", "South Korea"],
-                correct: 2,
-                explanation: "China has filed the most AI-related patents globally, reflecting its massive investment in AI research and development as part of its national strategy."
-            },
-            {
-                question: "In what year did Deep Blue defeat world chess champion Garry Kasparov?",
-                options: ["1995", "1997", "1999", "2001"],
-                correct: 1,
-                explanation: "IBM's Deep Blue made history by defeating reigning world champion Garry Kasparov in a six-game match, marking a milestone in AI's ability to compete with human expertise."
-            },
-            {
-                question: "What is the name of Meta's (Facebook's) open-source large language model?",
-                options: ["GPT", "BERT", "LLaMA", "Claude"],
-                correct: 2,
-                explanation: "LLaMA (Large Language Model Meta AI) is Meta's open-source language model released to researchers, designed to democratize access to large language model technology."
-            },
-            {
-                question: "In the video game 'Portal,' what is the name of the AI antagonist?",
-                options: ["HAL 9000", "Cortana", "GLaDOS", "SHODAN"],
-                correct: 2,
-                explanation: "GLaDOS (Genetic Lifeform and Disk Operating System) is the sarcastic AI villain in Portal, known for her dark humor and memorable personality in gaming culture."
-            }
+    question: "Which country has the most AI unicorns?",
+    options: ["United Kingdom", "China", "USA", "India"],
+    correct: 2,
+    explanation: "The USA leads in AI unicorns (startups valued over $1 billion) due to its strong venture capital ecosystem and tech hubs like Silicon Valley."
+},
+{
+    question: "What is the most popular framework that allows agents to use tools?",
+    options: ["TensorFlow", "Langchain", "PyTorch", "Hugging Face"],
+    correct: 1,
+    explanation: "Langchain is specifically designed to enable AI agents to interact with external tools and data sources, making it the go-to framework for building agent-based applications."
+},
+{
+    question: "What's the name of the test that determines if a machine can exhibit human-like intelligence?",
+    options: ["Turing Test", "Intelligence Quotient Test", "Cognitive Assessment Test", "Machine Learning Test"],
+    correct: 0,
+    explanation: "Proposed by Alan Turing in 1950, the Turing Test evaluates a machine's ability to exhibit intelligent behavior indistinguishable from a human."
+},
+{
+    question: "What's the term for when AI makes decisions we can't easily explain?",
+    options: ["Mystery Mode", "Black Box Problem", "Hidden Algorithm", "Secret Processing"],
+    correct: 1,
+    explanation: "The Black Box Problem refers to AI systems (especially deep neural networks) that make accurate predictions but whose internal decision-making process is opaque and difficult to interpret."
+},
+{
+    question: "What's the term for AI that can perform any intellectual task a human can do?",
+    options: ["Narrow AI", "Artificial General Intelligence (AGI)", "Super AI", "Machine Learning"],
+    correct: 1,
+    explanation: "AGI refers to hypothetical AI systems with human-level intelligence across all domains, unlike current 'narrow AI' which excels only at specific tasks."
+},
+{
+    question: "What revolutionary AI paper published in 2017 introduced the Transformer architecture?",
+    options: ["Deep Learning Revolution", "Attention is All You Need", "Neural Networks Unleashed", "The Future of AI"],
+    correct: 1,
+    explanation: "This groundbreaking paper by Google researchers introduced the Transformer architecture, which became the foundation for modern large language models like GPT and BERT."
+},
+{
+    question: "Which country has the most AI patents?",
+    options: ["USA", "Japan", "China", "South Korea"],
+    correct: 2,
+    explanation: "China has filed the most AI-related patents globally, reflecting its massive investment in AI research and development as part of its national strategy."
+},
+{
+    question: "In what year did Deep Blue defeat world chess champion Garry Kasparov?",
+    options: ["1995", "1997", "1999", "2001"],
+    correct: 1,
+    explanation: "IBM's Deep Blue made history by defeating reigning world champion Garry Kasparov in a six-game match, marking a milestone in AI's ability to compete with human expertise."
+},
+{
+    question: "What is the name of Meta's (Facebook's) open-source large language model?",
+    options: ["GPT", "BERT", "LLaMA", "Claude"],
+    correct: 2,
+    explanation: "LLaMA (Large Language Model Meta AI) is Meta's open-source language model released to researchers, designed to democratize access to large language model technology."
+},
+{
+    question: "Which model started the modern Generative AI boom in late 2022?",
+    options: ["GPT-2", "ChatGPT", "AlphaGo", "BERT"],
+    correct: 1,
+    explanation: "ChatGPT, released by OpenAI in November 2022, sparked widespread public interest in generative AI and became the fastest-growing consumer application in history."
+},
+{
+    question: "What is the meaning of RAG in the context of Gen AI?",
+    options: ["Random AI Generation", "Reinforced AI Guidance", "Recursive Answer Generation", "Retrieval Augmented Generation"],
+    correct: 3,
+    explanation: "RAG (Retrieval Augmented Generation) is a technique that enhances LLM responses by retrieving relevant information from external knowledge sources before generating answers."
+},
+{
+    question: "Which model family is primarily used to generate AI videos from text prompts?",
+    options: ["GANs", "Diffusion Models", "SVMs", "Autoencoders"],
+    correct: 1,
+    explanation: "Diffusion models, which work by gradually removing noise from random data, have become the dominant approach for generating high-quality videos from text descriptions."
+},
+{
+    question: "What do we call incorrect but confident answers produced by LLMs?",
+    options: ["Overfitting", "Noise", "Hallucinations", "Bias drift"],
+    correct: 2,
+    explanation: "Hallucinations occur when LLMs generate plausible-sounding but factually incorrect or nonsensical information with high confidence, a key challenge in AI reliability."
+},
+{
+    question: "In embeddings, cosine similarity mainly measures:",
+    options: ["Difference in magnitude", "Angle between vectors", "Euclidean distance", "Dot product only"],
+    correct: 1,
+    explanation: "Cosine similarity measures the angle between two vectors in embedding space, indicating semantic similarity regardless of vector magnitude, making it ideal for comparing text meanings."
+},
+{
+    question: "What is a token in the context of large language models?",
+    options: ["A complete paragraph of text", "A unit of text such as a word or sub-word piece", "A GPU used for training", "A security key for accessing the model"],
+    correct: 1,
+    explanation: "Tokens are the basic units that LLMs process, typically representing words or sub-word pieces, with models breaking down input text into these manageable chunks for processing."
+},
+{
+    question: "What does 'zero-shot' usually mean in the context of LLMs?",
+    options: ["Training with zero data", "Answering tasks without task-specific examples in the prompt", "Using zero parameters", "Running without GPU acceleration"],
+    correct: 1,
+    explanation: "Zero-shot learning refers to an LLM's ability to perform tasks it wasn't explicitly trained for, without being given any examples in the prompt, relying solely on its pre-trained knowledge."
+}
         ];
 
         // App state
