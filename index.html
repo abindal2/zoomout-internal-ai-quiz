@@ -219,8 +219,6 @@
         <div class="options" id="options"></div>
         
         <div class="feedback" id="feedback"></div>
-        
-        <button class="btn" id="nextBtn" style="display: none;">Next Question</button>
     </div>
 
     <script>
@@ -319,7 +317,6 @@
             });
 
             document.getElementById('feedback').className = 'feedback';
-            document.getElementById('nextBtn').style.display = 'none';
         }
 
         // Handle option selection
@@ -348,14 +345,7 @@
                 feedbackDiv.className = 'feedback incorrect show';
                 feedbackDiv.innerHTML = `<strong>✗ Incorrect!</strong><br>${currentQuestion.explanation}`;
             }
-
-            document.getElementById('nextBtn').style.display = 'block';
         }
-
-        // Next question
-        document.getElementById('nextBtn').onclick = () => {
-            displayQuestion();
-        };
 
         // Initialize quiz
         displayQuestion();
